@@ -10,7 +10,8 @@
 
     <h1>Home </h1>
 
-    <a href="/">Back</a>
+    <a href="{{url('/')}}">Back</a>
+	
 
 </body>
 </html>
