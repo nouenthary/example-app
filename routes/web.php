@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\UploadController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -27,3 +28,5 @@ Route::get('/data', function () {
 });
 
 Route::get('/my-home', [HomeController::class, 'index']);
+
+Route::resource('/uploads', UploadController::class);
